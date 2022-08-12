@@ -1,0 +1,390 @@
+body{
+    background-color: #f4f4f4;
+    overflow-x:hidden;    
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#login{
+   position:fixed;
+   background:rgb(37,37,37);
+   height: 40px;
+   line-height: 40px;
+   padding-left: 50px;
+   width: 100%;
+   top: 0px;
+}
+#big{
+    margin: 0px auto;
+    width: 1000px;
+    height: 3455px;
+    padding:5px 5px 0px 5px ;
+    background-color: rgb(255, 255, 255);
+}
+#header{
+    height: 180px;
+    width: 800px;
+    font-family: 宋体;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0px auto;
+}
+#logo{
+    float: left;
+    height: 100px;
+    width: 280px;
+}
+#box{
+    width: 600px;
+    margin: 30px auto;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+}
+#search{
+    width: 78px;
+    height: 30px;
+    float: right;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+input{
+    width: 260px;
+    border: 1px solid #e2e2e2;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position:5px center;
+    padding:0 0 0 40px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+#menu{
+    width: 1008px;
+    height: 37px;
+    border: 1px solid rgb(37, 37, 37);
+    background: rgb(37, 37, 37);
+    margin-left: -5px;
+}
+#tmd1{
+    display: inline-block;
+    width: 196.215px;
+    height: 37px;
+    text-align: center;
+    line-height: 37px;
+}
+a.tmd2:visited,a.tmd2:link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a.tmd2:hover{
+    text-decoration: none;
+    color:rgb(164, 202, 27);
+    font-weight: bold;
+}
+a.tmd3:link,a.tmd3:visited{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a.tmd3:hover{
+    text-decoration: none;
+    color: rgb(164, 202, 27);
+    font-weight: bold;
+}
+#ling{
+    border-top: 3px solid rgb(164, 202, 27);
+    width: 120px;
+    margin-bottom: -8px;
+    margin-left: 238px;
+}
+#position{
+    width: 1000px;
+    border-bottom: 1px solid gray;
+    color: gray;
+    margin-top: 12px;
+}
+#introduce{
+    width: 1000px;
+    height: 800px;
+}
+#gamepicture{
+    float: left;
+    margin-left: 9px;
+    margin-top: 9px;
+}
+#gametext{
+    width: 680px;
+    height: 500px;
+    float: right;
+}
+#detailedintroduction{
+    padding-left: 15px;
+    line-height: 30px;
+    padding-top: 10px;
+}
+#allname{
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 30px;
+    font-size: 25px;
+    color: red;
+}
+#allname1{
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 30px;
+    font-size: 20px;
+    color: red;
+}
+#stati{
+    width: 680px;
+    height: 108px;
+}
+table{
+    border: 1px gray solid;
+    border-collapse: collapse;
+    width: 100px;
+}
+td{
+    border: 1px gray solid;
+    background-color: green;
+    text-align: center;
+}
+#tbd{
+    margin-left: 60px;
+    margin-top: 27px;
+    float: left;
+    text-align: center;
+}
+#white{
+    background-color: white;
+}
+#loveq{
+    float: right;
+    margin-top: 10px;
+    margin-right: 65px;
+}
+#detrr{
+    width: 985px;
+    height: 1500x;
+    border-top: 1px solid gray;
+    float: left;
+    line-height: 30px;
+    padding-left: 16px;
+    font-weight: bold;
+}
+#footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background:rgb(37,37,37);
+    margin: 0 auto;
+    font-size: 16px;
+    color: white;
+}
+.clq{
+    color: #a0a0a0;
+}
+#footer{
+    line-height: 29px;
+}
+a.abo:link,a.abo:visited{
+    color: #a0a0a0;
+}
+a.abo:hover{
+    text-decoration: underline;
+    color: red;
+}
+td a:hover{
+    text-decoration: none;
+    color: black;
+}
+td a:link{
+    text-decoration: none;
+    color:black;
+}
+td a:visited{
+    text-decoration: none;
+    color:black;
+}
+td a:active{
+    text-decoration: none;
+    color: white;
+}
+#position a:visited,a:link{
+    text-decoration: none;
+    color: gray;
+}
+#position a:hover{
+    color: black;
+    text-decoration: none;
+}
+#position a:active{
+    color: red;
+    text-decoration: none;
+}
+#acg a:visited,a:link{
+    text-decoration: none;
+    color:black;
+}
+#acg a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#acg a:active{
+    color: red;
+    text-decoration: none;
+}
+#acgg a:visited,a:link{
+    text-decoration: none;
+    color:black;
+}
+#acgg a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#acgg a:active{
+    color: red;
+    text-decoration: none;
+}
+#agg a:visited,a:link{
+    text-decoration: none;
+    color:gray;
+}
+#agg a:hover{
+    color:rgb(128, 104, 104);
+    text-decoration: none;
+}
+#agg a:active{
+    color:rgb(59, 126, 85);
+    text-decoration: none;
+}
+#agg{
+    display: inline;
+   margin-left: 1717px;
+}
+#readgl a:link,a:visited{
+    color: rgb(36, 206, 126);
+}
+#readgl a:hover{
+    color: red;
+}
+#readgl{
+    width: 150px;
+}
+#loveq a:visited,a:link{
+    text-decoration: none;
+    color:red;
+}
+#loveq a:hover{
+    color: blue;
+    text-decoration: none;
+}
+#loveq a:active{
+    color: red;
+    text-decoration: none;
+}
+#zyglq{
+    width: 1000px;
+    height: 250px;
+}
+#loadorgl{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-top: 17px;
+    margin-left: -290px;
+}
+#zytt{
+    padding-top: 7px;
+}
+#zytta{
+    margin-left: 6px;
+    margin-right: 30px;
+}
+#gl1a{
+    text-align: left;
+    margin-bottom: 3px;
+    color: rgb(207, 82, 60);
+    font-weight: bold;
+    font-size: 20px;
+    background: rgba(255, 255, 255,0.1);
+    border-bottom: 3px rgb(24, 214, 49) solid;
+}
+#gl1aa ul li{
+    list-style-type: none;
+}
+#gl1aa{
+    line-height: 25px;
+    font-size: 14px;
+    border-bottom: 1px dashed gray;
+}
+a.gl1c:link,a.gl1c:visited{
+    color: blue;
+    text-decoration: none;
+}
+a.gl1c:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#zy1a{
+    text-align: left;
+    margin-bottom: 3px;
+    color: rgb(204, 214, 63);
+    font-weight: bold;
+    font-size: 20px;
+    background: rgba(255, 255, 255,0.1);
+    border-bottom: 3px rgb(173, 71, 12) solid;
+    margin-top: 10px;
+}
+#zy1aa ul li{
+    list-style-type: none;
+}
+#zy1aa{
+    line-height: 25px;
+    font-size: 14px;
+    border-bottom: 1px dashed gray;
+}
+a.zy1c:link,a.zy1c:visited{
+    color: blue;
+    text-decoration: none;
+}
+a.zy1c:hover{
+    color: blue;
+    text-decoration: underline;
+}
+a.glcs:link,a.glcs:visited{
+    color: black;
+    text-decoration: none;
+}
+a.glcs:hover{
+    color: red;
+    text-decoration: underline;
+}
+#gl1aa ul li{
+    color: black;
+}
+a.benzi:link,a.benzi:visited{
+    color: blue;
+    text-decoration: none;
+}
+a.benzi:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#cgtu{
+    margin-top: 10px;
+}
+#ttop{
+    position: fixed;
+    top: 890px;
+    left: 1600px;
+}
